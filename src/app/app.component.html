@@ -1,0 +1,13 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:left">
+  <h1>
+     {{ title }}!
+  </h1>
+  <!-- sending form-data with method get -->
+<form #gSearch method="GET" id="gSearch" action="https://www.google.com/search">
+    <div id="voicesearch">
+        <input #searchKey name="q" id="searchKey" type="search">&nbsp;&nbsp;&nbsp;
+        <img src="./assets/img/maxresdefault.jpg" alt="microphoneimg" (click)="voiceSearch()" id="icon-mic">
+    </div>
+</form>
+</div>
